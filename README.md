@@ -1,7 +1,3 @@
-#StroopTest
-
-developer: **Hugo Honda Ferreira**
-
 # CodeForBrasilia
 Code for Brasília Website
 
