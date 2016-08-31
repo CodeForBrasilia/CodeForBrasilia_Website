@@ -33,6 +33,16 @@ Code for Brasília Website
 
 [CodeForSouthAfrica](https://github.com/Code4SA/code4sa.github.io)
 
+##Paleta de Cores:
+
+```
+Verde 1 - #588F27
+// #588F27
+```
+- Verde 2 - #A9CF54
+- Amarelo - #F7E967
+- Azul 1 -  #04BFBF
+- Azul 2 -  #CAFCD8
 
 ##Contato
 **Se você quer participar, entre em contato pela página no [facebook](https://www.facebook.com/CodeForBrasilia/)**
