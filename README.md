@@ -23,7 +23,7 @@ Code for Brasília Website
 
 ##Referências - Sites CodeFor:
 
-[CodeForBoston](https://github.com/codeforboston) <-
+[CodeForBoston](https://github.com/CodeForBrasilia/CFB_static) <-
 
 [CodeForMiami](https://github.com/Code-for-Miami/code-for-miami.github.io_v1) <-
 
