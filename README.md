@@ -11,7 +11,7 @@ Code for Brasília Website
 
 - Datas / Agenda (Newsletter)
 
-- To-Do
+- To-Dow
 - Status Projetos - marcadores de:
   - Explorando a ideia
   - Beta
@@ -41,6 +41,31 @@ Verde 2 - #A9CF54
 Amarelo - #F7E967
 Azul 1 -  #04BFBF
 Azul 2 -  #CAFCD8
+```
+
+##Configurando:
+
+Instalar:
+
+1. [Ruby](https://www.ruby-lang.org/pt/documentation/installation/)
+
+2. [RubyGems](https://rubygems.org/pages/download/#formats)
+
+3. [Jekyll](https://jekyllrb.com/docs/installation/)
+```
+$ gem install jekyll
+```
+
+Importar o projeto para o diretório desejado.
+
+Acessar o diretório:
+```
+$ cd NomeDoDiretorio
+```
+
+Rodar o servidor de desenvolvimento no diretório (rodará em http://localhost:4000/):
+```
+$ jekyll serve
 ```
 
 ##Contato
