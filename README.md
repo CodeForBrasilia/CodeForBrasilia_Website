@@ -1,39 +1,54 @@
 # CodeForBrasilia
 Code for Brasília Website
 
-##Implementar:
+##Backlog
 
-- Sobre nós
-  - O que é o CodeFor
-  - Nossa Missão / Valores
-  - Nossos Parceiros
-  - Local (Mapa)
+###Início
+    - Navbar (barra de navegação)
+    - Início:
+        - Sobre
+        - Agenda
+        - Contato
+        - Contribua
+    - Título Grande
+    - Subtítulo
+    - Endereço + Mapa + Botão p/ Meetup
+    - Frase de Efeito
+    - Links:
+        - Git
+        - Slack
+        - Facebook
+    - Rodapé:
+        - Infos Gerais
+        - Barra de Navegação inferior
 
-- Datas / Agenda (Newsletter)
+###Sobre
+    - Quem somos / História
+    - Sobre CodeFor ao redor do mundo
+    - Nossos Parceiros / Redes Externas
+    - Local (Mapa)
 
-- To-Dow
-- Status Projetos - marcadores de:
-  - Explorando a ideia
-  - Beta
-  - Projeto Feito
+###Agenda
+    - Compromissos semanais
+    - Compromissos extra
+    - Adicionar compromissos à minha agenda do Google
 
-- Contato geral + Social (Facebook)
-- Redes Externas
-- Fomulário de skills "Junte-se a Nós"
+###Projetos
+    - Status:
+        - Explorando a Ideia
+        - Beta
+        - Feito
+    - To-Do List
 
-##Referências - Sites CodeFor:
+###Contato
+    - Git / Slack / Meetup / Facebook
+    - Formulário de Skills (link) - Junte-se a nós
 
-[CodeForBoston](https://github.com/CodeForBrasilia/CFB_static) <-
+##Referências
 
-[CodeForMiami](https://github.com/Code-for-Miami/code-for-miami.github.io_v1) <-
+[Bootstrap](https://startbootstrap.com/template-overviews/clean-blog/)
 
-[CodeForAmerica](https://github.com/codeforamerica/codeforamerica.org)
-
-[CodeForGermany](https://github.com/okfde/codefor.de)
-
-[CodeForSouthAfrica](https://github.com/Code4SA/code4sa.github.io)
-
-##Paleta de Cores:
+##Paleta de Cores
 
 ```
 Verde 1 - #588F27
@@ -43,30 +58,11 @@ Azul 1 -  #04BFBF
 Azul 2 -  #CAFCD8
 ```
 
-##Configurando:
-
-Instalar:
+##Configurando
 
 1. [Ruby](https://www.ruby-lang.org/pt/documentation/installation/)
 
 2. [RubyGems](https://rubygems.org/pages/download/#formats)
-
-3. [Jekyll](https://jekyllrb.com/docs/installation/)
-```
-$ gem install jekyll
-```
-
-Importar o projeto para o diretório desejado.
-
-Acessar o diretório:
-```
-$ cd NomeDoDiretorio
-```
-
-Rodar o servidor de desenvolvimento no diretório (rodará em http://localhost:4000/):
-```
-$ jekyll serve
-```
 
 ##Contato
 **Se você quer participar, entre em contato pela página no [facebook](https://www.facebook.com/CodeForBrasilia/)**
