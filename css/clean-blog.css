@@ -25,7 +25,8 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #333333;
+  color: black;
+  text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -425,4 +426,34 @@ a.btn-top {
   color: white;
   font-weight: bold;
   font-color: white;
+}
+
+.btn-large
+{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: 740px;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #588F27;
+}
+
+.btn-large:hover
+{
+  background-color: #A9CF54;
+  color: #fff;
+}
+
+.post-title, .endereco
+{
+  text-align: center;
+}
+
+.btn-large a
+{
+  text-decoration: none;
 }
