@@ -413,3 +413,16 @@ a.btn-top {
     line-height: 1.2;
     padding: 0.5em 1em;
 }
+
+.btn-secondary{
+  display: block;
+  width: 6em;
+  height: 4em;
+  background: #588F27;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-color: white;
+}
