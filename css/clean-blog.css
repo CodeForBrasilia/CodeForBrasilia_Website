@@ -415,7 +415,7 @@ a.btn-top {
     padding: 0.5em 1em;
 }
 
-.btn-secondary{
+.btn-secondary {
   display: block;
   width: 6em;
   height: 4em;
@@ -428,8 +428,7 @@ a.btn-top {
   font-color: white;
 }
 
-.btn-large
-{
+.btn-large {
   display: block;
   padding: 10px;
   text-align: center;
@@ -442,18 +441,21 @@ a.btn-top {
   background-color: #588F27;
 }
 
-.btn-large:hover
-{
+.btn-large:hover {
   background-color: #A9CF54;
   color: #fff;
 }
 
-.post-title, .endereco
-{
+.post-title, .endereco {
   text-align: center;
 }
 
-.btn-large a
-{
+.btn-large a {
   text-decoration: none;
+}
+
+@media (max-width: 770px) {
+  .btn-large {
+    width: 180px;
+  }
 }
