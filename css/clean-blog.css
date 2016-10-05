@@ -459,3 +459,14 @@ a.btn-top {
     width: 180px;
   }
 }
+
+#thank-you-message {
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+#back-to-site-button {
+  margin: auto;
+  padding-bottom: 1em;
+}

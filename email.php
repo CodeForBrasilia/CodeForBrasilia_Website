@@ -10,10 +10,10 @@ $Val 		= "Nome: $Name\n\nE-mail: $Email\n\nTelefone: $Phone\n\nMensagem: $Messag
 
 require_once("phpmailer/class.phpmailer.php");
 
-define('GUSER', 'enviador@gmail.com');	// <-- Insira aqui o seu GMail
-define('GPWD', 'senha');		// <-- Insira aqui a senha do seu GMail
+define('GUSER', 'codeforbrasilia@gmail.com');	// <-- Insira aqui o seu GMail
+define('GPWD', 'iluminantes');		// <-- Insira aqui a senha do seu GMail
 
-function smtpmailer($para, $de, $de_nome, $assunto, $corpo) { 
+function smtpmailer($from, $to, $to_name, $subj, $body_info) { 
 	global $error;
 	$mail = new PHPMailer();
 	$mail->IsSMTP();		// Ativar SMTP
@@ -24,10 +24,10 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 	$mail->Port = 587;  		// A porta 587 deverá estar aberta em seu servidor
 	$mail->Username = GUSER;
 	$mail->Password = GPWD;
-	$mail->SetFrom($de, $de_nome);
-	$mail->Subject = $assunto;
-	$mail->Body = $corpo;
-	$mail->AddAddress($para);
+	$mail->SetFrom($to, $to_name);
+	$mail->Subject = $subj;
+	$mail->Body = $body_info;
+	$mail->AddAddress($from);
 	if(!$mail->Send()) {
 		$error = 'Mail error: '.$mail->ErrorInfo; 
 		return false;
@@ -38,11 +38,11 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 }
 
 // Insira abaixo o email que irá receber a mensagem, o email que irá enviar (o mesmo da variável GUSER), 
-o nome do email que envia a mensagem, o Assunto da mensagem e por último a variável com o corpo do email.
+// o nome do email que envia a mensagem, o Assunto da mensagem e por último a variável com o corpo do email.
 
- if (smtpmailer('recebedor@dominio.com.br', 'enviador@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
+ if (smtpmailer('codeforbrasilia@gmail.com', 'codeforbrasilia@gmail.com', 'Site', 'Formulario do Site', $Vai)) {
 
-	Header("location:http://www.dominio.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
+	Header("location:thank-you.html"); // Redireciona para uma página de obrigado.
 
 }
 if (!empty($error)) echo $error;
