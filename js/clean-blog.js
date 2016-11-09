@@ -30,10 +30,8 @@ jQuery(document).ready(function($) {
                     }
                 } else if (currentTop > this.previousTop) {
                     //if scrolling down...
-                    // $('.navbar-custom').removeClass('is-visible');
-                    if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-fixed is-visible');
-                    }
+                    $('.navbar-custom').removeClass('is-visible');
+                    if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
                 }
                 this.previousTop = currentTop;
             });
