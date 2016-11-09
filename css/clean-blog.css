@@ -474,7 +474,7 @@ a.btn-top {
 /* carousel */
 .projects-header {
   background-color: black;
-  height: 474px;
+  height: 448px;
   margin-bottom: 50px;
 }
 
@@ -489,7 +489,7 @@ a.btn-top {
 }
 
 .carousel-caption .carousel-subheading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
