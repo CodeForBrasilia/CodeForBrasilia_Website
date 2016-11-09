@@ -29,13 +29,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="js/button.js"></script>
+
 </head>
 
 <body>
 
-<div class="corpo">
-  <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,95 +71,63 @@
         <!-- /.container -->
     </nav>
 
-  <!-- Page Header -->
-  <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header" style="background-image: url('img/brasilia-area-eixomonumental.png')">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <div class="site-heading">
-                      <h1>CODE FOR BRASILIA</h1>
-                      <hr class="small">
-                      <span class="subheading" id="pitch-phrase">
-                          E se você pudesse contribuir para que a sua cidade fosse melhor?
-                      </span>
-                  </div>
-              </div>
-          </div>
-          <!-- <div class="row address-map ">
-              <div class="col-md-offset-2 col-md-6">
-                  <div class="address-text">
-                      <h2 class="t-h4">Toda quarta-feira às 19h</h2>
-                      <address>
-                        Espaço de Coworking Público Empreende Brasília
-                        <br>
-                        Secretaria Adjunta do Trabalho
-                        <br>
-                        Quadra 06, Lote 10/11, Agência do Trabalhador, Setor Comercial Sul
-                      </address>
-                      <br>
-                      <a href="https://www.meetup.com/CodeForBrasilia-an-OpenBrazil-Brigade/"target="_blank" class="btn-secondary">Quero participar!</a>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <a href="https://www.google.com/maps/place/Ag%C3%AAncia+do+Trabalhador+de+Plano+Piloto/@-15.7971137,-47.892718,16.65z/data=!4m8!1m2!2m1!1ssecretaria+trabalho+brasilia!3m4!1s0x0:0x5344dc5b364400e!8m2!3d-15.7968993!4d-47.8903484" target="_blank">
-                      <img width="220" align="right" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=false&size=220x220&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x8eeb67%7Clabel:%7CAdjunta+do+Trabalho+Setor+Comercial+Sul+Brasilia" alt="Google Map of Adjunta do Trabalho Setor Comercial Sul Brasília">
-                  </a>
-              </div>
-          </div> -->
-      </div>
-  </header>
+    <header class="projects-header">
+            <div id="myCarousel" class="carousel slide" style = "height: 100%;">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-  <!-- Main Content -->
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-preview">
-                <div class="row">
-
-                  <div class="col-md-8">
-                      <h2 class="post-title">
-                          Toda quarta-feira às 19h
-                      </h2>
-
-                      <div class="endereco">
-                        <p>
-                          Espaço de Coworking Público Empreende Brasília
-                          Secretaria Adjunta do Trabalho
-                          Quadra 06, Lote 10/11, Agência do Trabalhador, Setor Comercial Sul
-                        </p>
-                      </div>
+                <!-- Wrapper for Slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- Set the first background image using inline CSS below. -->
+                        <div class="fill-carousel" style="background-image:url('img/project-website.png');"></div>
+                        <div class="carousel-caption">
+                            <h2>CodeForBrasília Website</h2>
+                            <hr class="small">
+                            <div class="carousel-subheading">
+                                Esta página que você está visitando foi feita por nós!
+                            </div>
+                            <div class="carousel-subheading" style="margin-bottom: 40px;">
+                             Veja o código no <a style="color: #0085A1;" target="_blank" href="https://github.com/CodeForBrasilia/CodeForBrasilia_Website">GitHub</a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-md-4">
-                          <iframe src="https://goo.gl/ObYqP4" width="300" height="300" frameborder="0" style="border:0">
-
-                          </iframe>
+                    <div class="item">
+                        <!-- Set the second background image using inline CSS below. -->
+                        <div class="fill-carousel" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                        <div class="carousel-caption">
+                            <h2>Tem Remédio Aí?</h2>
+                        </div>
                     </div>
-
-                    <div class="col-md-12">
-                      <button type="button" name="button" class="btn btn-large">
-                        <a href="https://www.meetup.com/CodeForBrasilia-an-OpenBrazil-Brigade/"target="_blank" id="participate-button">
-                            Quero participar!
-                        </a>
-                      </button>
+                    <div class="item">
+                        <!-- Set the third background image using inline CSS below. -->
+                        <div class="fill-carousel" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                        <div class="carousel-caption">
+                            <h2>Projeto X</h2>
+                        </div>
                     </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+            </div>
+    </header>
 
 
-                  </div>
-              </div>
-
-              <!-- Pager -->
-
-          </div>
-      </div>
-  </div>
-
-  <hr>
 
 
-      <!-- Footer -->
-      <footer>
+
+    <!-- Footer -->
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -194,21 +161,19 @@
             </div>
         </div>
     </footer>
-  <!-- jQuery -->
-  <script src="vendor/jquery/jquery.min.js"></script>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <!-- Theme JavaScript -->
-  <script src="js/clean-blog.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-</div>
-
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
 
 </body>
 
